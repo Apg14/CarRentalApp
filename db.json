@@ -1,42 +1,44 @@
-[
-    {
-        "id": "1",
-        "name": "Toyota Corolla",
-        "isRented": "FALSE",
-        "rentalDates": "[]",
-        "pricePerDay": "50",
-        "features": "Aire acondicionado, Automático, 5 pasajeros"
-    },
-    {
-        "id": "2",
-        "name": "Honda Civic",
-        "isRented": "TRUE",
-        "rentalDates": "['2024-12-10', '2024-12-20']",
-        "pricePerDay": "60",
-        "features": "Bluetooth, GPS, Manual, 5 pasajeros"
-    },
-    {
-        "id": "3",
-        "name": "Ford Fiesta",
-        "isRented": "FALSE",
-        "rentalDates": "[]",
-        "pricePerDay": "45",
-        "features": "Compacto, Económico, Automático"
-    },
-    {
-        "id": "4",
-        "name": "Nissan Sentra",
-        "isRented": "TRUE",
-        "rentalDates": "['2024-12-15', '2024-12-22']",
-        "pricePerDay": "55",
-        "features": "Sedán, Manual, Aire acondicionado"
-    },
-    {
-        "id": "5",
-        "name": "Chevrolet Spark",
-        "isRented": "FALSE",
-        "rentalDates": "[]",
-        "pricePerDay": "40",
-        "features": "Económico, Compacto, Automático"
-    }
-]
+{
+    "autos": [
+        {
+            "id": 1,
+            "name": "Toyota Corolla",
+            "isRented": false,
+            "rentalDates": [],
+            "pricePerDay": 50,
+            "features": "Aire acondicionado, Automático, 5 pasajeros"
+        },
+        {
+            "id": 2,
+            "name": "Honda Civic",
+            "isRented": true,
+            "rentalDates": ["2024-12-10", "2024-12-20"],
+            "pricePerDay": 60,
+            "features": "Bluetooth, GPS, Manual, 5 pasajeros"
+        },
+        {
+            "id": 3,
+            "name": "Ford Fiesta",
+            "isRented": false,
+            "rentalDates": [],
+            "pricePerDay": 45,
+            "features": "Compacto, Económico, Automático"
+        },
+        {
+            "id": 4,
+            "name": "Nissan Sentra",
+            "isRented": true,
+            "rentalDates": ["2024-12-15", "2024-12-22"],
+            "pricePerDay": 55,
+            "features": "Sedán, Manual, Aire acondicionado"
+        },
+        {
+            "id": 5,
+            "name": "Chevrolet Spark",
+            "isRented": false,
+            "rentalDates": [],
+            "pricePerDay": 40,
+            "features": "Económico, Compacto, Automático"
+        }
+    ]
+}
